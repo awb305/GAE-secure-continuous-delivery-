@@ -1,0 +1,5 @@
+steps:
+- name: gcr.io/cloud-builders/gsutil
+  args: ['cp', 'gs://pf-app-yaml/app.flexible.yaml', './app']
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['app', 'deploy', '--version=production', '--promote', 'app/app.flexible.yaml']

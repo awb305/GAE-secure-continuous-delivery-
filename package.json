@@ -1,12 +1,5 @@
 {
-  "name": "secureDeliveryInGAE",
-  "version": "1.0.0",
-  "description": "A continuous delivery pipeline for GAE",
-  "main": "server.js",
-  "repository": "git@github.com:awb305/GAE-secure-continuous-delivery-.git",
-  "author": "andrewwbass@gmail.com",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.16.4"
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
